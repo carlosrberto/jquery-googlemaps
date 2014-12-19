@@ -73,4 +73,4 @@ $('#map-3').googlemaps('traceRoute', 'Rua Saldanha Marinho, Ribeirão Preto, Bra
 
 ## Demo
 
-See a [demo](demo/).
+See a [demo](http://carlosrberto.github.io/jquery-googlemaps/).
