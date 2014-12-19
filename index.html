@@ -18,7 +18,7 @@
 
     <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../src/jquery.googlemaps.js"></script>
+    <script src="src/jquery.googlemaps.js"></script>
     <script>
         $('#map-1').googlemaps({
             map: {
@@ -39,8 +39,8 @@
                 zoom: 16,
                 dragagble: false
             },
-            originMarkerImage: '../img/pin-1.png',
-            destinationMarkerImage: '../img/pin-2.png'
+            originMarkerImage: 'img/pin-1.png',
+            destinationMarkerImage: 'img/pin-2.png'
         });
 
         $('#map-3').googlemaps('traceRoute', 'Rua Saldanha Marinho, Ribeirão Preto, Brasil', 'Avenida Presidente Vargas, 2121, Ribeirão Preto, Brasil');
